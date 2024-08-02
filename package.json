@@ -1,0 +1,29 @@
+{
+  "name": "api-development",
+  "version": "1.0.0",
+  "description": "A Node Js API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"node app.js",
+    "dev1":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShravyaRNadig/node-api-development.git"
+  },
+  "keywords": [
+    "Node",
+    "API"
+  ],
+  "author": "Shravya R Nadig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShravyaRNadig/node-api-development/issues"
+  },
+  "homepage": "https://github.com/ShravyaRNadig/node-api-development#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
