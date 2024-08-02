@@ -10,11 +10,12 @@
 //     res.send("Hello world from node.js");
 // };
 
-const express=require('express') 
+// Controllers
+const express = require('express')
 const postContollers = require('../controllers/post')
 
 const router = express.Router()
 
-router.get('/',postContollers.getPosts)
+router.get('/', postContollers.getPosts)
 
 module.exports = router;

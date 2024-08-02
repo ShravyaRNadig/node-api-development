@@ -2,7 +2,7 @@ const express = require('express');
 const morgan =require("morgan");
 const app = express();
 
-const {getPosts} = require('./routes/post') 
+// const {getPosts} = require('./routes/post') 
 const postRoutes = require('./routes/post') 
 
 // own middleware
