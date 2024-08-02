@@ -12,7 +12,8 @@
 
 // Controllers
 const express = require('express')
-const postContollers = require('../controllers/post')
+const postContollers = require('../controllers/json')
+// const postContollers = require('../controllers/post')
 
 const router = express.Router()
 
