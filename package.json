@@ -2,11 +2,11 @@
   "name": "api-development",
   "version": "1.0.0",
   "description": "A Node Js API",
-  "main": "appRoutes.js",
+  "main": "middleWare.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node appRoutes.js",
-    "dev1": "nodemon appRoutes.js"
+    "dev": "node middleWare.js",
+    "dev1": "nodemon middleWare.js"
   },
   "repository": {
     "type": "git",
